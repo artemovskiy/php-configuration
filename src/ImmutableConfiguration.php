@@ -24,4 +24,10 @@ class ImmutableConfiguration extends AbstractConfiguration implements Configurat
         return $instance;
     }
 
+    public function merge(Configuration $configuration) {
+        $instance = clone $this;
+        $instance->mergeWithMutation($configuration);
+        return $instance;
+    }
+
 }

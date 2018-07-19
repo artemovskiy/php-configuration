@@ -17,7 +17,7 @@ class BasicLoaderWithMiddlewares extends BasicLoader implements Loader {
     /**
      * @var array
      */
-    protected $middlewares;
+    protected $middlewares = [];
 
     /**
      * Adds the Middleware to middleware stack

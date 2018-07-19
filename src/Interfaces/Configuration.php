@@ -92,6 +92,14 @@ interface Configuration {
     public function set($key,$value);
 
     /**
+     * Merges configurations to one
+     *
+     * @param Configuration $configuration
+     * @return Configuration
+     */
+    public function merge(Configuration $configuration);
+
+    /**
      * Returns config array
      * @return array
      */

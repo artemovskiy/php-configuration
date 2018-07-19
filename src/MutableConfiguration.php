@@ -23,4 +23,10 @@ class MutableConfiguration extends AbstractConfiguration implements Configuratio
         return $this;
     }
 
+    public function merge(Configuration $configuration) {
+        $instance = $this;
+        $instance->mergeWithMutation($configuration);
+        return $instance;
+    }
+
 }

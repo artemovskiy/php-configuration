@@ -126,6 +126,10 @@ abstract class AbstractConfiguration implements Configuration{
         return $array;
     }
 
+    public function mergeWithMutation(Configuration $configuration){
+        $this->array = array_merge($configuration->toArray(),$this->array);
+    }
+
     /**
      * @param string $key
      * @return KeyWrapper
