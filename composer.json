@@ -1,0 +1,20 @@
+{
+    "name": "xyden/configuration",
+    "description": "This package provides powerful application configuration tools",
+    "type": "library",
+    "version": "1.0.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Kutepov",
+            "email": "xydenswork@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Xydens\\Configuration\\": "src/"
+        }
+    },
+    "require": {}
+}
