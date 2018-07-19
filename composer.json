@@ -1,8 +1,8 @@
 {
-    "name": "xyden/configuration",
+    "name": "xydens/configuration",
     "description": "This package provides powerful application configuration tools",
     "type": "library",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "license": "MIT",
     "authors": [
         {
