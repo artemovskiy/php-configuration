@@ -2,7 +2,7 @@
     "name": "xyden/configuration",
     "description": "This package provides powerful application configuration tools",
     "type": "library",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "authors": [
         {
@@ -16,5 +16,7 @@
             "Xydens\\Configuration\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^5.4 || ^7.0"
+    }
 }
