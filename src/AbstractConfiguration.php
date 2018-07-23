@@ -25,7 +25,7 @@ abstract class AbstractConfiguration implements Configuration{
     /**
      * @var array
      */
-    protected $array;
+    protected $array = [];
 
     /**
      * MutableConfiguration constructor.
